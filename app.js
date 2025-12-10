@@ -7,3 +7,13 @@ function switchBulb(){
         bulb.setAttribute('fill', 'yellow')
     }
 }
+
+
+///compiti
+//1) SVG
+/// creare un icona con tre linee orizzontale (Hamburger Icon)
+/// cambiare il colore al passaggio del mouse
+/// ruotarla al click
+//2) P5.js
+/// usare p5js per creare un community module da inviare al concorso per la mostra
+/// (https://pcdcoimbra.dei.uc.pt/2026/)
