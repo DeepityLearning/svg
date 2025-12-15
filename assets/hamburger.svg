@@ -1,11 +1,12 @@
 <svg width="50" height="50" viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
     <style>
-        /* Stile interno al file SVG */
+        /* Stile di base dei rettangoli */
         rect {
             fill: black;
-            transition: fill 0.3s ease;
+            transition: fill 0.3s ease; /* Transizione morbida */
         }
-        /* Quando il mouse passa sopra l'SVG, i rettangoli diventano viola */
+        
+        /* HOVER: Quando il mouse è sopra L'SVG, i rettangoli diventano viola */
         :hover rect {
             fill: violet;
         }
@@ -15,3 +16,4 @@
     <rect y="30" width="100" height="15" rx="8"></rect>
     <rect y="60" width="100" height="15" rx="8"></rect>
 </svg>
+
