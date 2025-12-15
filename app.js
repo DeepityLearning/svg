@@ -1,10 +1,18 @@
-function switchBulb(){
+
+function switchBulb() {
+    // 1. Seleziona l'elemento cerchio tramite il suo ID
     const bulb = document.getElementById('bulb-circle');
-    console.log(bulb)
-    if(bulb.getAttribute('fill') === 'yellow'){
-        bulb.setAttribute('fill', 'none')
+    
+    // 2. Controllo di sicurezza: l'elemento esiste?
+    if (bulb) {
+        // 3. Logica Toggle: Se è giallo spegni, altrimenti accendi
+        if (bulb.getAttribute('fill') === 'yellow') {
+            bulb.setAttribute('fill', 'none');
+        } else {
+            bulb.setAttribute('fill', 'yellow');
+        }
     } else {
-        bulb.setAttribute('fill', 'yellow')
+        console.log("Errore: Elemento 'bulb-circle' non trovato.");
     }
 }
 
